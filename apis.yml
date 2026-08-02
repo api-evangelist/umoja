@@ -1,9 +1,28 @@
 aid: umoja
-name: Umoja
-description: Umoja is a company surfaced as a portfolio company of dcvc, softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Umoja Biopharma
+description: >-
+  Umoja Biopharma is a Seattle-based clinical-stage immuno-oncology company developing in vivo CAR
+  T cell therapies for cancer. Its VivoVec lentiviral platform generates CAR T cells directly in a
+  patient's body, removing the ex vivo manufacturing step of traditional cell therapy, and the
+  company operates its own manufacturing facility in Louisville, Colorado. Its pipeline includes
+  UB-VV111 (CD19), UB-VV400 (the industry's first known CD22-directed in vivo CAR T candidate,
+  FDA IND clearance July 2026), and UB-VV500. Umoja is backed by investors including DCVC (DCVC
+  Bio) and SoftBank Vision Fund 2. The company publishes no public developer API, OpenAPI, or
+  developer portal; this profile captures the company identity and the security posture of its
+  public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/umoja/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.umoja-biopharma.com/wp-content/uploads/2022/08/UMOJA_Facebook.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,12 +32,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Immunotherapy
+- CAR-T
+- Cell Therapy
+- Oncology
+- Gene Therapy
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/umoja-domain-security.yml
+- type: Website
+  url: https://www.umoja-biopharma.com/
+- type: About
+  url: https://www.umoja-biopharma.com/our-company/
+- type: Blog
+  url: https://www.umoja-biopharma.com/news/
+- type: BlogRSS
+  url: https://www.umoja-biopharma.com/feed/
+- type: PrivacyPolicy
+  url: https://www.umoja-biopharma.com/privacy-policy/
+- type: Contact
+  url: https://www.umoja-biopharma.com/contact/
+- type: Careers
+  url: https://www.umoja-biopharma.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/umoja-biopharma/
+- type: Twitter
+  url: https://twitter.com/UmojaBiopharma
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

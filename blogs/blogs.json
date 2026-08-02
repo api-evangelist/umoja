@@ -1,0 +1,28 @@
+{
+  "repo": "umoja",
+  "feeds": [
+    {
+      "source": "https://www.umoja-biopharma.com/feed/",
+      "feed_url": "https://www.umoja-biopharma.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.umoja-biopharma.com/our-company/",
+      "feed_url": "https://www.umoja-biopharma.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.umoja-biopharma.com/news/",
+      "feed_url": "https://www.umoja-biopharma.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 5,
+  "fetched": "2026-08-01T15:49:00Z"
+}
