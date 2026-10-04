@@ -48,7 +48,7 @@ tags:
 - Company
 - Biotechnology
 - Immunotherapy
-- Cart
+- CAR-T
 - Cell Therapy
 - Oncology
 - Gene Therapy
@@ -94,3 +94,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Cart
